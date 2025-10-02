@@ -1,0 +1,38 @@
+body {
+    background-color: #F39494;
+}
+
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+}
+
+#company {
+    color: #333333;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+#name, #lastName, #email {
+    background-color: #F5F5F5;
+    font-size: 16px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #089FE0;
+    font-size: 18px;
+}
+
+label[for="read"], form a {
+    font-size: 14px;
+}
