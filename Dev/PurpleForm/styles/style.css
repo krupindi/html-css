@@ -1,24 +1,30 @@
 main {
-    background-color : #1E1F29
+  background-color: #1e1f29;
 }
 
 h1 {
-    color: #FAFAFA;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: 'Andale Mono', monospace;
+  color: #fafafa;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Andale Mono", monospace;
 }
 
-input, textarea, select {
-    background-color: #2E2D3D;
-    color: #FAFAFA;
+input,
+textarea,
+select {
+  background-color: #2e2d3d;
+  color: #fafafa;
 }
 
 label {
-    color: #AFB2BF;
+  color: #afb2bf;
 }
 
 button {
-    background-color: #6C38CC;
-    color:#FAFAFA
+  background-color: #6c38cc;
+  color: #fafafa;
+}
+
+input[type="email"] {
+  background: red;
 }
