@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+header a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+input {
+  background: #1f293799;
+}
+
+.heroText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.nameUser {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.positionUser {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.sectionText {
+  color: #ffffff;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
