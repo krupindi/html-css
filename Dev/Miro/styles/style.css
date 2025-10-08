@@ -3,9 +3,25 @@
   color: #fff;
 }
 
+#heroButton:hover {
+  background-color: #0a18b1;
+}
+
+#heroButton:active {
+  background-color: #060e68;
+}
+
+.heroForm input:focus {
+  background-color: aliceblue;
+}
+
 .link {
   color: #4252ff;
   text-decoration: underline;
+}
+
+.link:hover {
+  color: #0a18b1;
 }
 
 p {
@@ -43,4 +59,17 @@ header a {
   font-size: 14px;
   line-height: 20px;
   color: #050038;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.sectionList {
+  list-style: none;
+  /* list-style-image: url(../img/check.svg); */
+}
+
+.sectionList li::before {
+  content: url(../img/check.svg);
 }

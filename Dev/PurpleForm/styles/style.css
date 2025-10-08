@@ -16,6 +16,14 @@ select {
   color: #fafafa;
 }
 
+input:invalid {
+  background: red;
+}
+
+input:valid {
+  background: green;
+}
+
 label {
   color: #afb2bf;
 }
@@ -23,8 +31,4 @@ label {
 button {
   background-color: #6c38cc;
   color: #fafafa;
-}
-
-input[type="email"] {
-  background: red;
 }
