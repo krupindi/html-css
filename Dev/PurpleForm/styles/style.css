@@ -1,12 +1,30 @@
+body {
+  background-color: #15161d;
+}
+
 main {
   background-color: #1e1f29;
+  border-radius: 10px;
+  padding: 48px;
+}
+.field {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.field img {
+  position: absolute;
+  top: 17px;
+  left: 16px;
 }
 
 h1 {
   color: #fafafa;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Andale Mono", monospace;
+  font-family: ssans-serif;
+  text-align: center;
+  margin: 0 0 32px 0;
 }
 
 input,
@@ -14,21 +32,40 @@ textarea,
 select {
   background-color: #2e2d3d;
   color: #fafafa;
-}
-
-input:invalid {
-  background: red;
-}
-
-input:valid {
-  background: green;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: sans-serif;
+  padding: 27px 48px 12px;
+  border-radius: 10px;
+  border: none;
 }
 
 label {
+  position: absolute;
+  top: 12px;
+  left: 48px;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 120%;
   color: #afb2bf;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: #404257;
+  font-size: 16px;
 }
 
 button {
   background-color: #6c38cc;
   color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
 }

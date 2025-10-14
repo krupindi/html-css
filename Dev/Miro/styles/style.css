@@ -120,3 +120,66 @@ footer a {
 .sectionList li::before {
   content: url(../img/check.svg);
 }
+
+.cl1 {
+  background-color: red;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.cl2 {
+  background-color: blue;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.cl3 {
+  background-color: green;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.static cl2 {
+  position: static;
+}
+
+.relative .cl2 {
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
+
+.absolute {
+  position: relative;
+}
+
+.absolute .cl2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.fixed .cl2 {
+  /* position: fixed; */
+  top: 50px;
+  left: 50px;
+}
+
+.sticky {
+  height: 600px;
+}
+
+.sticky .cl2 {
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
