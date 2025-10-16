@@ -19,7 +19,8 @@ h2 {
 h1,
 h2 {
   font-weight: 400;
-  font-size: 48px;
+  /* font-size: 48px; */
+  font-size: 4vmin;
   line-height: 56px;
   color: #050038;
 }
@@ -74,11 +75,13 @@ footer a {
 
 #heroButton {
   background-color: #4262ff;
+  transition: background-color 1s 1s, border-radius 2s 1s;
   color: #fff;
 }
 
 #heroButton:hover {
   background-color: #0a18b1;
+  border-radius: 50%;
 }
 
 #heroButton:active {

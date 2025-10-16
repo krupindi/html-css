@@ -2,11 +2,19 @@ body {
   background-color: #15161d;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 main {
   background-color: #1e1f29;
   border-radius: 10px;
   padding: 48px;
+  max-width: 600px;
+  min-width: 360px;
+  margin: 0 auto;
 }
+
 .field {
   margin-bottom: 16px;
   position: relative;
@@ -39,6 +47,7 @@ select {
   padding: 27px 48px 12px;
   border-radius: 10px;
   border: none;
+  width: 100%;
 }
 
 label {
