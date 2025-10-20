@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Miro</title>
   </head>
   <body>
@@ -20,17 +26,32 @@
         </nav>
       </header>
       <section id="hero">
-        <h1>Место для командной работы</h1>
-        <p class="heroText">
-          Интерактивная онлайн-доска для совместной работы команд — в любое
-          время, в любом месте.
-        </p>
-        <form action="/register" method="get" class="heroForm">
-          <input type="email" name="email" id="email" />
-          <button id="heroButton">Начать бесплатно</button>
-        </form>
-        <p>Всегда бесплатно — кредитная карта не нужна</p>
-        <img src="./img/1.png" alt="Интерфейс Miro" />
+        <div>
+          <h1>
+            Место для<br />
+            командной<br />
+            работы
+          </h1>
+          <p class="heroText">
+            Интерактивная онлайн-доска для совместной работы команд — в любое
+            время, в любом месте.
+          </p>
+          <form action="/register" method="get" class="heroForm">
+            <input type="email" name="email" id="email" />
+            <button id="heroButton">Начать бесплатно</button>
+          </form>
+          <p>Всегда бесплатно — кредитная карта не нужна</p>
+          <div class="heroLogos">
+            45М+ пользователей
+            <img src="./img/walmart.png" alt="логотип Walmart" />
+            <img src="./img/cisco.png" alt="логотип Cisco" />
+            <img src="./img/deloitte.png" alt="логотип Deloitte" />
+            <img src="./img/volvo.png" alt="логотип Volvo" />
+          </div>
+        </div>
+        <div>
+          <img src="./img/1.png" alt="Интерфейс Miro" />
+        </div>
       </section>
       <section>
         <h2>Работайте вместе, где бы вы ни находились</h2>

@@ -1,5 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 0 40px;
+  max-width: 1200px;
 }
 
 p {
@@ -18,31 +30,39 @@ h2 {
 
 h1,
 h2 {
+  color: #050038;
   font-weight: 400;
   /* font-size: 48px; */
   font-size: 4vmin;
   line-height: 56px;
-  color: #050038;
+}
+
+header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 header a {
+  color: #050038;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #050038;
   text-decoration: none;
 }
 
 nav {
-  padding: 33px 50px;
-  border-bottom: 1px solid #f0f0f0;
   margin-bottom: 60px;
+  margin: 0 auto;
+  padding: 33px 50px;
+  max-width: 1200px;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+  display: flex;
+  gap: 34px;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 footer {
@@ -56,50 +76,65 @@ footer a {
 }
 
 .heroForm + p {
+  margin: 8px 0 52px 0;
+  color: #050038;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #050038;
-  margin: 8px 0 52px 0;
 }
 
 .heroText {
-  color: #050038;
   margin: 0 0 55px 0;
+  color: #050038;
+}
+
+.heroLogos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .sectionText {
-  color: #696688;
   margin: 0 0 39px 0;
+  color: #696688;
+}
+
+#hero {
+  display: flex;
+  gap: 65px;
 }
 
 #heroButton {
   background-color: #4262ff;
-  transition: background-color 1s 1s, border-radius 2s 1s;
   color: #fff;
 }
 
 #heroButton:hover {
   background-color: #0a18b1;
-  border-radius: 50%;
 }
 
 #heroButton:active {
   background-color: #060e68;
 }
 
+.heroForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .heroForm input {
-  border-radius: 32px;
   border: 1px solid #9b99af;
-  height: 38px;
+  border-radius: 32px;
   padding: 5px 10px;
+  height: 48px;
 }
 
 .heroForm button {
-  border-radius: 32px;
   border: 1px solid #4262ff;
-  height: 51px;
+  border-radius: 32px;
   padding: 10px 20px;
+  height: 51px;
 }
 
 .heroForm input:focus {
