@@ -1,80 +1,119 @@
-body {
-  background: linear-gradient(180deg, #374151 0%, #111827 100%);
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
 
-nav {
-  padding: 80px 226px;
+body {
+  margin: 0;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  max-width: 1440px;
+  font-family: "Roboto", sans-serif;
+}
+
+body > header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  max-height: 69px;
+}
+
+header .blog-name {
+  margin-right: 77px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+header nav {
+  margin-right: 395px;
 }
 
 nav ul {
-  font-size: 18px;
-  list-style: none;
-  padding: 0;
+  display: flex;
+  gap: 50px;
   margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style: none;
 }
 
 input {
-  background: #1f293799;
   border: none;
   border-radius: 100px;
-  margin: 0 0 69px 0;
+  background: #1f293799;
+  padding: 5px 10px;
   width: 224px;
   height: 40px;
-  padding: 5px 10px;
+  color: #ffffff;
+}
+
+.blog-title {
+  text-align: center;
 }
 
 h1 {
+  margin: 0 0 30px 0;
+  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 38px;
-  color: #ffffff;
-  margin: 0 0 30px 0;
 }
 
-.user {
+.blog-user {
   margin: 0 0 28px 0;
 }
 
-img {
-  margin: 0 0 69px 0;
-}
-
 header a {
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
   text-decoration: none;
-  color: #ffffff;
 }
 
 footer p {
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
 }
 
-.heroText {
+.blog-date {
+  margin: 0 0 14px 0;
+  color: #858585;
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
-  color: #ffffff;
-  margin: 0 0 14px 0;
+}
+
+.blog-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-info {
+  flex-direction: column;
 }
 
 .nameUser {
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
 }
 
 .positionUser {
+  color: #858585;
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
-  color: #ffffff;
+}
+
+.blog-main img {
+  display: block;
+  margin: 0 auto 36px;
 }
 
 .thirdSectionText {
@@ -84,5 +123,16 @@ footer p {
 .firstSectionText,
 .secondSectionText,
 .thirdSectionText {
+  margin: 0 auto 25px;
+  max-width: 708px;
   color: #ffffff;
+  font-style: solid;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+footer p {
+  color: #858585;
+  text-align: center;
 }
