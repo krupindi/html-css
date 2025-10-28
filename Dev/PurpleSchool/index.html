@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/page.css" />
   </head>
   <body>
@@ -33,14 +34,37 @@
             <li class="menu__item"><a href="#">База знаний</a></li>
           </ul>
         </nav>
-        <a href="#" class="header__login">
+        <a href="#" class="header__login" aria-label="Вход в личный кабинет">
           <img src="./images/user.svg" alt="Иконка пользователя" />
           <div>Вход</div>
         </a>
-        <button class="header__mobile-menu-button">
+        <button
+          class="header__mobile-menu-button"
+          aria-expanded="flase"
+          aria-haspopup="true"
+        >
           <img src="./images/menu.svg" alt="Мобильное меню" />
         </button>
       </div>
     </header>
+    <section class="section section__light">
+      <div class="hero">
+        <div class="hero__left">
+          <h1 class="hero__h1">
+            Доступные курсы по <br />
+            <span class="hero__h1_gradient">Разработке и DevOps</span>
+          </h1>
+          <div class="hero__cta">
+            <button class="button button_primary">Выбрать курс</button>
+            <button class="button button_ghost">О школе</button>
+          </div>
+        </div>
+        <img
+          class="hero__right"
+          src="./images/video.png"
+          alt="Видео с автором"
+        />
+      </div>
+    </section>
   </body>
 </html>

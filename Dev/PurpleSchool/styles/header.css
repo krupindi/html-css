@@ -10,7 +10,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 40px 24px;
-  max-width: calc(1220px - 48px);
+  max-width: var(--layout-width);
 }
 
 .header__login {
@@ -39,6 +39,12 @@
   }
   .header__mobile-menu-button {
     display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__wrapper {
+    padding: 30px 24px;
   }
 }
 
