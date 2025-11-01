@@ -73,8 +73,8 @@
 
 @media (max-width: 860px) {
   .headling__bottom {
-    font-size: 34px;
     font-weight: 400;
+    font-size: 34px;
     line-height: 41px;
   }
 }
