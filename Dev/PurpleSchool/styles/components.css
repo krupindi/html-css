@@ -71,6 +71,14 @@
   line-height: 55px;
 }
 
+@media (max-width: 860px) {
+  .headling__bottom {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+  }
+}
+
 /* Parapraph */
 
 .paragraph {
@@ -103,6 +111,7 @@
   flex-direction: column;
   gap: 36px;
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 /* post */
@@ -111,7 +120,6 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  margin-bottom: 48px;
 }
 
 .post__stats {
@@ -148,4 +156,21 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+}
+
+@media (max-width: 860px) {
+  .post {
+    flex-direction: column;
+  }
+  .button-more .button,
+  .post__button .button {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .post__header {
+    font-size: 21px;
+  }
 }
