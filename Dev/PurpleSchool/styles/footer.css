@@ -11,8 +11,8 @@
 .footer__social {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 36px;
   gap: 24px;
+  margin-bottom: 36px;
 }
 
 .footer__menu {

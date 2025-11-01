@@ -30,6 +30,10 @@
   gap: 32px;
 }
 
+.button-more {
+  text-align: center;
+}
+
 .button_primary {
   background: var(--color-primary);
 }
@@ -45,7 +49,7 @@
 
 .button_ghost:hover {
   cursor: pointer;
-  background: var(--color-bg-medium);
+  background: var(--color-bg-light);
 }
 
 @media (max-width: 1200px) {
