@@ -1,0 +1,83 @@
+:root {
+  --color-primary: #6c38cc;
+  --color-primary-hover: #5b2bb2;
+  --color-secondary: #e47ad5;
+  --color-text: #fafafa;
+  --color-link-hover: #afb2bf;
+  --color-bg: #16171d;
+  --space-10: 10px;
+  --color-bg-medium: #1e1f29;
+  --color-bg-light: #2e2d3d;
+  --color-stroke: #4d5064;
+  --color-footer: #101114;
+
+  --border-8: 8px;
+  --border-10: 10px;
+  --layout-width: 1172px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 30px;
+  background: var(--color-bg);
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item {
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 700;
+  border: 2px solid var(--color-primary);
+  text-align: center;
+  padding: 15px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer';
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    grid-template-areas:
+      'header header header header'
+      'content content content sidebar'
+      'footer footer footer footer';
+  }
+}
